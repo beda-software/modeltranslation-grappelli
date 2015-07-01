@@ -7,7 +7,7 @@ README = open('README.md').read()
 
 setup(
     name='modeltranslation-grappelli',
-    version='2.0.0',
+    version='3.0.0',
     author='Konstantin Liuterovich',
     author_email='constantin3627@gmail.com',
 
@@ -24,7 +24,7 @@ setup(
         'modeltranslation_grappelli': ['static/modeltranslation-grappelli/css/*.css',
                                        'static/modeltranslation-grappelli/js/*.js']},
     install_requires=[
-        'django-modeltranslation==0.8',
+        'django-modeltranslation>=0.9',
     ],
 
     zip_safe=False,

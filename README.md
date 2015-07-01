@@ -10,9 +10,11 @@ This package allow usage modeltranslation packages with grappelli admin interfac
 <tr>
 <td>Modeltranslation-grappelli</td><td>Django</td>
 </tr><tr>
-<td>2.0.0</td><td>1.7</td>
+<td>>=3.0</td><td>1.8</td>
 </tr><tr>
-<td>1.0.0</td><td>1.4-1.6</td>
+<td>==2.0</td><td>1.7</td>
+</tr><tr>
+<td>==1.0</td><td>1.4-1.6</td>
 </tr>
 </table>
 
