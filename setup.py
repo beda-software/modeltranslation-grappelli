@@ -7,7 +7,7 @@ README = open('README.md').read()
 
 setup(
     name='modeltranslation-grappelli',
-    version='0.0.1',
+    version='1.0.0',
     author='Konstantin Liuterovich',
     author_email='constantin3627@gmail.com',
 

@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: modeltranslation-grappelli
+Version: 1.0.0
+Author: Konstantin Liuterovich
+Author-email: constantin3627 at gmail com
+Home-page: https://github.com/Brogency/modeltranslation-grappelli
+Download-url: https://github.com/Brogency/modeltranslation-grappelli
+Summary: django-modeltranslation with support grappelli.
+License: BSD
+Description: modeltranslation-grappelli
+
+        This package allow usage modeltranslation packages with grappelli admin interface.
+
+        Usage
+
+        Install package:
+
+        pip install modeltranslation-grappelli
+
+        Include to installed apps:
+
+        INSTALLED_APPS = (
+            ...
+            'modeltranslation_grappelli',
+        )
+
+        And inherit your admin class from this mixin:
+
+        from modeltranslation_grappelli.admin.mixin import CustomMinTabbedTranslationAdmin
+
+        class YourModelAdmin(CustomMinTabbedTranslationAdmin):
+            pass
+Keywords: modeltranslation django grappelli
+Platform: UNKNOWN
