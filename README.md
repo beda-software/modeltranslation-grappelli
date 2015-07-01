@@ -2,13 +2,27 @@
 
 This package allow usage modeltranslation packages with grappelli admin interface.
 
-## Usage
+## Installation
 
-Install package.
+### Requirments
+
+<table>
+<tr>
+<td>Modeltranslation-grappelli</td><td>Django</td>
+</tr><tr>
+<td>2.0.0</td><td>1.7</td>
+</tr><tr>
+<td>1.0.0</td><td>1.4-1.6</td>
+</tr>
+</table>
+
+### Using pip
 
 ```bash
 pip install modeltranslation-grappelli
 ```
+
+### Configure
 
 Include to installed apps.
 
